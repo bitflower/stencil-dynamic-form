@@ -35,4 +35,4 @@ const myForm: FormElement[] = [
 
 into this:
 
-![https://raw.githubusercontent.com/bitflower/stencil-dynamic-form/master/preview.png](preview)
+![](https://raw.githubusercontent.com/bitflower/stencil-dynamic-form/master/preview.png)
