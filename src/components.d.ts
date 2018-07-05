@@ -25,6 +25,9 @@ declare global {
   interface HTMLAttributes {}
 }
 
+import {
+  FormElement,
+} from './components/some-form/some-form';
 
 declare global {
 
@@ -100,8 +103,7 @@ declare global {
 
   namespace StencilComponents {
     interface SomeForm {
-      'component': string;
-      'props': any;
+      'elements': FormElement[];
     }
   }
 
@@ -124,8 +126,7 @@ declare global {
   }
   namespace JSXElements {
     export interface SomeFormAttributes extends HTMLAttributes {
-      'component'?: string;
-      'props'?: any;
+      'elements'?: FormElement[];
     }
   }
 }
